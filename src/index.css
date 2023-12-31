@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bodyflex{
+  display: flex;
+  justify-content: center;
+ background-color: rgb(120, 120, 211);
+ width: 100vw;
+ height: 100vh;
+}
+.mainfelx{
+  background-color: rgba(255, 255, 255, 0.966);
+ border: 2px;
+  padding-right: 10px;
+  height: 70vh;
+  margin: auto;
+  border-radius: 19px;
+  box-shadow: rgba(60, 146, 64, 0.15) 0px 48px 100px 0px;
+}
+.heading{
+  background-color: rgba(243, 203, 142, 0.801);
+  color:black;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.ipt{
+  margin: 20px;
+  border: none;
+  border-bottom: 2px solid rgb(165, 162, 162);
+
+}
+.ipt:focus{outline: none}
+.ipt::placeholder{
+  color: black;
+  text-align: center;
+  border-bottom: 2px solid rgb(165, 162, 162);
+
+}
+.iptbut{
+  padding: 4px;
+  border-radius: 100px;
+  width: 30px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: rgb(165, 144, 184);
+  border: none;
+  color:white;
+}
+.iptbut:hover{
+  background-color: rgb(17, 179, 17);
+  color:#0e0d0d;
+}
+
+.listdata{
+  margin: 20px;
+}
+.itemsdiv{
+  display: flex;
+   margin-top: 12px;
+  align-content: center;
+}
+span {
+  color: #b93d3d;
+ 
+  /* padding: 6px; */
+}
+.itemsdiv p{
+  margin-left: 10px;
+}
+
+.del:hover{
+  background-color: #c02020;
+  border-radius: 40px;
+ color:rgb(230, 229, 229);
+}
